@@ -78,7 +78,7 @@ function defaultTab() {
     const defaultTabButton = document.createElement("button");
     defaultTabButton.className = "btn btn-wide tab-button-container defaultTab tabBtn"; // tabBtn for theme color
     defaultTabButton.id = "tabButton-1";
-    defaultTabButton.innerHTML = `Default`;
+    defaultTabButton.innerHTML = "Default";
     defaultTabButton.style.width = '92%';
     defaultTabButton.style.height = '48px';
     defaultTabButton.onclick = function() {
